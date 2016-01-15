@@ -1,11 +1,15 @@
 #body {
   background: #C4CFDA;
+  padding-bottom: 70px;
 }
 
 .container-jumbotron {
   margin-top: 30px;
 }
 
+.jumbotron {
+  margin-top: 30px
+}
 #container-result1, #container-result2, #container-result3, #container-result4{
   display: none;
   padding-left: 60px;
@@ -16,3 +20,24 @@
   margin-left: auto;
   margin-right: auto;
 }
+.container-fluid {
+  width:980px;
+  margin:auto;
+  height:auto;
+  background: #E4AFAF;
+  overflow: auto;
+  text: white;
+}
+.text {
+  color: white;
+  float:right;
+  padding-right: 20px;
+}
+
+ .container-footer {
+   float:right;
+ }
+
+ .navbar-fixed-bottom {
+   background: #E4AFAF;
+ }
