@@ -7,22 +7,26 @@ $(document).ready(function() {
       tempPreferance = $("select#tempPreferance1"). val();
 
 
-      if (age >=35 && gender === "Female" && tempPreferance === "Hot" || age >=35 && gender === "Male" && tempPreferance === "Hot") {
+      if (age >=35) {
+        if (gender === "Female" && tempPreferance === "Hot" || gender === "Male" && tempPreferance === "Hot") {
         $('#container-result2').show();
         }
-        if(age >=35 && gender === "Female" && tempPreferance === "Cold" || age >=35 && gender === "Male" && tempPreferance === "Cold") {
+        else {
           $('#container-result1').show();
           }
-      if (age <35 && gender === "Female" && tempPreferance === "Hot" || age <35 && gender === "Male" && tempPreferance === "Hot") {
+        }
+      if (age <35) {
+        if (gender === "Female" && tempPreferance === "Hot" || gender === "Male" && tempPreferance === "Hot") {
         $('#container-result4').show();
         }
-        if(age <35 && gender === "Female" && tempPreferance === "Cold" || age <35 && gender === "Male" && tempPreferance === "Cold") {
+        else {
           $('#container-result3').show();
+          }
         }
   // Another way to get the same results! Just a different way of thinking about the code.
       // if (age >= 35){
       //   if (gender === "Female"){
-      //     if (orientation === "Straight") {
+      //     if (tempPreferance === "Hot") {
       //       $('#container-result2').show();
       //     }
       //     else {
@@ -30,7 +34,7 @@ $(document).ready(function() {
       //     }
       //   }
       //   else {
-      //     if (orientation === "Straight"){
+      //     if (tempPreferance === "Cold"){
       //       $('#container-result1').show();
       //     }
       //     else {
@@ -40,7 +44,7 @@ $(document).ready(function() {
       // }
       // else {
       //   if (gender === "Female"){
-      //       if (orientation === "Straight"){
+      //       if (tempPreferance === "Cold"){
       //         $('#container-result3').show();
       //       }
       //       else{
@@ -48,7 +52,7 @@ $(document).ready(function() {
       //       }
       //   }
       //   else{
-      //     if (orientation === "Straight") {
+      //     if (tempPreferance === "Hot") {
       //       $('#container-result4').show();
       //     }
       //     else {

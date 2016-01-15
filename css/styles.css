@@ -13,6 +13,8 @@
 #container-result1, #container-result2, #container-result3, #container-result4{
   display: none;
   padding-left: 60px;
+  overflow: auto;
+
 }
 
 .center-block {
