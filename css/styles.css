@@ -1,0 +1,18 @@
+#body {
+  background: #C4CFDA;
+}
+
+.container-jumbotron {
+  margin-top: 30px;
+}
+
+#container-result1, #container-result2, #container-result3, #container-result4{
+  display: none;
+  padding-left: 60px;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
