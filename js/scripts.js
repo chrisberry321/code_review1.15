@@ -25,7 +25,7 @@ $(document).ready(function() {
           }
         }
 
-        
+
   // Another way to get the same results! Just a different way of thinking about the code.
       // if (age >= 35){
       //   if (gender === "Female"){
@@ -67,3 +67,11 @@ $(document).ready(function() {
     event.preventDefault();
   });
 });
+
+//       // partySize =parseInt($("input#partySize").val());
+
+
+// for(partySize index=0; index<99; indes-=1){
+//         //   alert('You and'+partySize[index]+'friend(s) better start packing');
+//         //   $('#container-result3').show();
+//         // }

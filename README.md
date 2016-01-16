@@ -21,7 +21,7 @@ https://github.com/chrisberry321/code_review1.15.git
 All links to _Bootstrap_ and _jQuery_ are in the current folders, but if you are having troubles loading them clone the repository and download the uncompressed files and try linking to them.
 
 ## Known Bugs
-No known issues at this time.
+Tried to create a loop for the partySize integer, that would initiate an alert that would subtract one from the argument passed and include it in a message.
 
 ## Support and contact details
 
